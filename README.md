@@ -9,6 +9,8 @@ Found I could use various functionality over several projects. Collected them in
     - encode/1: Binary to encode. Provides only uppercase outputs.
     - decode/1: Binary to decode. Case-insensitive.
     
+    Reference: [The Base16, Base32, and Base64 Data Encodings](https://tools.ietf.org/html/rfc4648#section-6)
+    
  - IFace: Utility to get MAC and IP information from NICs.
  
    API:
