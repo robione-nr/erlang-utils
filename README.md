@@ -22,3 +22,14 @@ Found I could use various functionality over several projects. Collected them in
     - get_ipv6/1: IPv6 address of specified NIC.
     - get_mac/0: Hardware address of first non-loopback NIC with an IP.
     - get_mac/1: Hardware address of specified NIC.
+    
+ - MathX: Set of extensions to math library.
+ 
+   API:
+    - is_odd/1: Tests oddity of integer.
+    - is_even/1: Tests even-ness of integer.
+    - mean/1: Computes the mean of all list elements.
+    - median/1: Returns the median of the samples.
+    - variance/1: Returns the sample variance and mean as a tuple.
+    - stddev/1: Returns the sample standard deviation and mean as a tuple.
+    - cull/2: Returns an order-preserved list where n•σ values are dropped.
