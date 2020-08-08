@@ -1,10 +1,9 @@
 -module(mathx).
 -author("Nolan Robidoux").
--timestamp("2020/08/08 19:14 UTC").
+-timestamp("2020/08/08 19:52 UTC").
 
 -export([mean/1, median/1, is_odd/1, is_even/1]).
-
--compile(export_all).
+-export([variance/1, stddev/1, cull/2]).
 
 %% ====================================================================
 %% API functions
